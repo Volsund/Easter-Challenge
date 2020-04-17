@@ -1,8 +1,13 @@
 # Easter-Challenge
 
-1# $ composer require catfan/medoo
+-Players can be added to database.
+-Players can battle between each other until there is only one active player left.
+-Possibilty to see player statistics and info from last 50 games played.
 
-2#  $database = new Medoo($databaseConfig); 
+
+1#   $ composer require catfan/medoo
+
+2#   $database = new Medoo($databaseConfig); 
 
    can/should be replaced with:
    
