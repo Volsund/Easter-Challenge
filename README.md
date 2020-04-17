@@ -2,10 +2,9 @@
 
 1# $ composer require catfan/medoo
 
-2# 
-   $database = new Medoo($databaseConfig); 
+2#  $database = new Medoo($databaseConfig); 
 
-   can be replaced with:
+   can/should be replaced with:
    
     $database = new Medoo([
     'database_type' => 'mysql',
